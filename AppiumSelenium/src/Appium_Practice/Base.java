@@ -15,7 +15,7 @@ public class Base {
 	 File appDir = new File("src");
      File app = new File(appDir, "ApiDemos-debug.apk");
      DesiredCapabilities capabilities = new DesiredCapabilities();
-     sdfsddfa
+     
      capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "sravanakumarreddy1");
      capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
      AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
